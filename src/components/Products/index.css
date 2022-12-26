@@ -1,0 +1,9 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-image {
+  height: 50vh;
+}
