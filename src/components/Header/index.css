@@ -146,3 +146,6 @@
 .nav-bar-img {
   width: 24px;
 }
+.nav-link {
+  text-decoration: none;
+}
