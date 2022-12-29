@@ -47,14 +47,12 @@ const LoginForm = props => {
       onSubmitFailure(data.error_msg)
     }
   }
-  //   useEffect(() => {
-
-  //   })
-  //   const jwtToken = cookies.get('jwt_token')
-  //   if (jwtToken !== undefined) {
-  //      <Redirect to="/" />
-  //   }
-  //    <Redirect to="/login" />
+    
+    const jwtToken = cookies.get('jwt_token')
+    if (jwtToken !== undefined) {
+       <Redirect to="/" />
+    }
+     <Redirect to="/login" />
 
   return (
     <div className="login-container">
